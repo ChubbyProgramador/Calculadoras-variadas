@@ -21,7 +21,7 @@ def bissec(a, b, e):
 
 # Input
 f_string = input("Digite a função f(x): ")
-# Replace 'P' and 'O' with their respective values before evaluating the function
+# minha parte(implementei a substituicao das letras P e O como equivalentes a PI e proporçao aurea)
 f_string = f_string.replace('P', '3.1415').replace('O', '1.61803')
 f = eval('lambda x: ' + f_string)
 
