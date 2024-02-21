@@ -14,7 +14,7 @@ def newton_raphson(f, df, a, tol=1e-5):
             return a_new
         a = a_new
         Nvezes += 1
-
+#Minha parte(improvement na parte de input modificando as letras P e O para serem parametros na conta)
 if __name__ == '__main__':
     expression = input("Digite a expressão da função f(x) (use 'P' para 3.1415 and 'O' for 1.61803): ")
     expression = expression.replace('P', '3.1415').replace('O', '1.61803')
